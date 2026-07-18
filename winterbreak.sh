@@ -15,7 +15,7 @@ if [ -f "$mount_dir/.Setup1Complete" ]; then
   curl -L -o "$mount_dir/Update_hotfix_universal.bin" \
     "https://github.com/KindleModding/Hotfix/releases/latest/download/Update_hotfix_universal.bin"
 
-  cp -f "$mount_dir/Update_hotfix_universal.bin" "$mount_dir/"
+  cp -f Update_hotfix_universal.bin "$mount_dir/"
   rm -f "$mount_dir/.Setup1Complete"
   touch "$mount_dir/.Setup2Complete"
 
