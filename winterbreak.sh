@@ -87,7 +87,7 @@ case "$ans" in
     echo "All done! Please check the guide for further instuctions!"
     ;;
   n|N)
-    echo "Sorry to see you go!"
+    echo "ITS NOT FUUNY I GOT SKOOL!"
     ;;
   *)
     echo "Please respond with Y or N"
